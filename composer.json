@@ -1,12 +1,11 @@
 {
-    "name": "h5p/h5p-editor",
+    "name": "escolasoft/h5p-editor",
     "type": "library",
     "description": "H5P Editor functionality in PHP",
-    "keywords": ["h5p","hvp","editor","interactive","content","quiz"],
+    "keywords": ["h5p", "hvp", "editor", "interactive", "content", "quiz"],
     "homepage": "https://h5p.org",
     "license": "GPL-3.0",
-    "authors": [
-        {
+    "authors": [{
             "name": "Svein-Tore Griff With",
             "email": "with@joubel.com",
             "homepage": "http://joubel.com",
@@ -24,11 +23,11 @@
     },
     "autoload": {
         "files": [
-          "h5peditor.class.php",
-          "h5peditor-file.class.php",
-          "h5peditor-ajax.class.php",
-          "h5peditor-storage.interface.php",
-          "h5peditor-ajax.interface.php"
+            "h5peditor.class.php",
+            "h5peditor-file.class.php",
+            "h5peditor-ajax.class.php",
+            "h5peditor-storage.interface.php",
+            "h5peditor-ajax.interface.php"
         ]
     }
 }
