@@ -176,7 +176,8 @@ class H5peditor {
       for ($i = 0, $s = count($oldFiles); $i < $s; $i++) {
         if (!in_array($oldFiles[$i], $newFiles) &&
             preg_match('/^(\w+:\/\/|\.\.\/)/i', $oldFiles[$i]) === 0) {
-          $this->h5p->fs->removeContentFile($oldFiles[$i], $content);
+          // TODO: this is removing too much in eg, Question Set, Background Image 
+          // $this->h5p->fs->removeContentFile($oldFiles[$i], $content);
           // (optionally we could just have marked them as tmp files)
         }
       }
